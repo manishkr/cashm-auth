@@ -1,0 +1,3 @@
+->         /v1/auth               v1.auth.AuthRouter
+->         /v1/user               v1.user.UserRouter
+->         /v1/merchant_auth      v1.merchant.MerchantRouter

@@ -1,0 +1,11 @@
+recash-auth-9000:
+    image: recash-auth:latest
+    restart: always
+    net: host
+    command: ["-Dhttp.port=9000"]
+
+recash-auth-9001:
+    image: recash-auth:latest
+    restart: always
+    net: host
+    command: ["-Dhttp.port=9001"]
